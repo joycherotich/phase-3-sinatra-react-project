@@ -24,9 +24,14 @@ gem "activerecord", "~> 6.1"
 # https://github.com/sinatra-activerecord/sinatra-activerecord
 gem "sinatra-activerecord", "~> 2.0"
 
+
 # Run common tasks from the command line
 # https://github.com/ruby/rake
-gem "rake", "~> 13.0"
+
+
+gem 'rake', '~> 13.0', '>= 13.0.6'
+
+ gem 'faker', '~> 3.1', '>= 3.1.1'
 
 # Provides functionality to interact with a SQLite3 database
 gem "sqlite3", "~> 1.4"
