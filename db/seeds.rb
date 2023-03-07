@@ -8,15 +8,7 @@ puts ":seedling: Seeding users, please wait..."
      password: Faker::Internet.password,
     email: Faker::Internet.email
    )
-#   rand(1..10).times do
-#     movie = Movie.create(
-#       title: Faker::Movie.title,
-#       genre: Faker::Lorem.words(number: 2).join(' '),
-#     image_url: Faker::LoremFlickr.image,
-#       rating: rand(1..10),
-#       year: Faker::Date.between(from: 1990-01-01, to: 2023-03-03),
-#       user_id: user.id
-#     )
+
    end
 
 Movie.create([
@@ -119,6 +111,7 @@ Movie.create([
     title: "Recruit",
     genre: "Action",
     image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUY0-9mJ91A3iegiub1Jiq3gEPsB-nb10k9Q&usqp=CAU",
+      
     rating: 5,
     year: 2010,
     user_id: 5
